@@ -1,4 +1,4 @@
-/*!
+/*
  * VerbalExpressions Qt Library v0.1
  * https://github.com/VerbalExpressions/QtVerbalExpressions
  *

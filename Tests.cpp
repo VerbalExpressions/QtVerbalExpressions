@@ -3,8 +3,6 @@
 
 #include "QVerbalExpressions.h"
 
-
-
 int main()
 {
     {
@@ -18,7 +16,9 @@ int main()
             .anythingBut(" ")
             .endOfLine();
 
-        qDebug() << expression << expression.test("https://www.google.com");
+        qDebug()
+            << expression
+            << expression.test("https://www.google.com");
     }
 
     {
@@ -27,9 +27,11 @@ int main()
         auto expression = QVerbalExpressions()
             .find("bird");
 
-        qDebug() << expression << expression.replace(replaceMe, "duck");
+        qDebug()
+            << expression
+            << expression.replace(replaceMe, "duck");
     }
-
 
     return 0;
 }
+
