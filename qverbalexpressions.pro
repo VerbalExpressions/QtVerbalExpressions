@@ -1,6 +1,6 @@
-TEMPLATE = app
+TEMPLATE = lib
 
-CONFIG += c++11
+CONFIG += c++11 staticlib
 QMAKE_CXXFLAGS += -Wall
 
 macx {
@@ -10,14 +10,14 @@ macx {
 
 DEFINES += QT_USE_QSTRINGBUILDER
 
-TARGET = QtVerbalExpressions
+TARGET = qverbalexpressions
 
 QT -= gui
 QT += core
 
 SOURCES += \
-    QVerbalExpressions.cpp \
-    Tests.cpp
+    QVerbalExpressions.cpp
 
-HEADERS += QVerbalExpressions.h
+HEADERS += \
+    QVerbalExpressions.h
 
