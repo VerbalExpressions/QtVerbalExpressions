@@ -3,7 +3,7 @@ QtVerbalExpressions
 
 ## Qt Regular Expressions made easy
 
-This Qt lib is based off of the C++ [VerbalExpressions](https://github.com/VerbalExpressions/CppVerbalExpressions) library by [ionutvmi](https://github.com/ionutvmi).
+This Qt lib is based off of the C++ [VerbalExpressions](https://github.com/VerbalExpressions/CppVerbalExpressions) library by [whackashoe](https://github.com/whackashoe).
 
 ### Testing if we have a valid URL
 
