@@ -10,7 +10,7 @@ macx {
 
 DEFINES += QT_USE_QSTRINGBUILDER
 
-TARGET = qverbalexpressions
+TARGET = qtverbalexpressions
 
 QT -= gui
 QT += core
